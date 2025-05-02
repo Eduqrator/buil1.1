@@ -3,10 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://eduqrator.com",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx update-browserslist-db@latest && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
