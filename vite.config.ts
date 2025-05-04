@@ -10,5 +10,14 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     emptyOutDir: true,
+    sourcemap: true
   },
+  server: {
+    port: 3000,
+    host: true,
+    fs: {
+      strict: true
+    }
+  },
+  base: './'
 });
